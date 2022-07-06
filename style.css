@@ -23,10 +23,51 @@ body {
     background-repeat: no-repeat;
 }
 
-#for-donate {
+.second-page {
+    text-align: center;
+    background-size: cover;
+}
+
+.for-donate {
     text-decoration: none;
     padding: 20px 40px;
     border-radius: 10px;
     background-image: linear-gradient(skyblue, blue);
     color: aliceblue;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.pill-nav a {
+
+    display: inline-block;
+    color: rgb(51, 50, 50);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.pill-nav a.active {
+
+    background-color: rgb(241, 232, 232);
+    border: 2px solid red;
+    color: red;
+    padding: 40px 20px;
+}
+
+#down-border {
+    border-bottom: 2px solid gray;
+
+    color: gray;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 30px;
 }
