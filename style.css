@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+#large-headding {
+    font-size: 70px;
+}
+
+
+.header-page {
+
+    color: white;
+    text-align: center;
+    padding-top: 160px;
+    background-image: url(images/donation13.jpg);
+    background-position: center;
+    padding-bottom: 13%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#for-donate {
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(skyblue, blue);
+    color: aliceblue;
+}
