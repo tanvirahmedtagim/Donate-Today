@@ -5,6 +5,18 @@ body {
 
 }
 
+h1 {
+    font-size: 60px;
+}
+
+.large-size {
+    font-size: 30px;
+}
+
+.ash-color {
+    color: gray;
+}
+
 #large-headding {
     font-size: 70px;
 }
@@ -17,8 +29,8 @@ body {
     padding-top: 160px;
     background-image: url(images/donation13.jpg);
     background-position: center;
-    padding-bottom: 13%;
-
+    padding-bottom: 9%;
+    margin-bottom: 150px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -26,6 +38,11 @@ body {
 .second-page {
     text-align: center;
     background-size: cover;
+    margin-bottom: 150px;
+}
+
+.third-page {
+    text-align: center;
 }
 
 .for-donate {
@@ -64,10 +81,39 @@ body {
     color: gray;
 }
 
-h1 {
-    font-size: 60px;
+.flexiable-container {
+    display: flex;
+
+
 }
 
-p {
-    font-size: 30px;
+#food {
+    margin-top: 2%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    padding: 70px 50px;
+    background-color: rgb(238, 238, 250);
+
+}
+
+#Shelter {
+    margin-top: 2%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    margin-left: 0%;
+    padding: 70px 50px;
+    background-color: rgb(238, 231, 221);
+
+}
+
+#Education {
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    margin-left: 0%;
+    padding: 70px 50px;
+    background-color: rgb(249, 239, 220);
+
+
 }
